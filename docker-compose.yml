@@ -43,6 +43,3 @@ networks:
   default:
     driver: bridge
     name: ${JUNCTION_SLUG}_network
-    ipam:
-      config:
-        - subnet: ${DOCKER_SUBNET}
