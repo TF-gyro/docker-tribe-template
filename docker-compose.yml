@@ -19,7 +19,7 @@ services:
       - MYSQL_DATABASE=${DB_NAME}
 
   tribe:
-    image: ghcr.io/tribe-framework/junction:latest
+    image: runny7947/gyro:1.2.5-ubuntu:latest
     container_name: ${JUNCTION_SLUG}-tribe
     restart: 'unless-stopped'
     working_dir: /var/www/
