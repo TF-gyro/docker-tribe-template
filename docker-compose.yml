@@ -19,7 +19,7 @@ services:
       - MYSQL_DATABASE=${DB_NAME}
 
   tribe:
-    image: ghcr.io/tf-gyro/cms:latest
+    image: ghcr.io/tf-gyro/cms:latest-dev
     container_name: ${JUNCTION_SLUG}-tribe
     restart: 'unless-stopped'
     working_dir: /var/www/
